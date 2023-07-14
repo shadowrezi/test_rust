@@ -1,0 +1,11 @@
+[package]
+name = "new_test"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+systray = "0.4"
+cpython = "0.7.1"
